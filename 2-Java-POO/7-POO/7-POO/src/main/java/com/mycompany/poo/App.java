@@ -47,6 +47,8 @@ public class App {
         Persona persona4 = new Persona();
         
         persona1.crearPersona("Facundo", 22, "Hombre", 50, 1.85);
+        
+        persona1.esMayorDeEdad();
         persona1.calcularIMC();
         persona1.esMayorDeEdad();
     }
